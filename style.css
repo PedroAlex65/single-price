@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    background: #E6EFF5;
+}
+
+header {
+    margin-top: 163px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-one {
+    width: 635px;
+    height: 200px;
+    background: white;
+}
+
+.container-one h1 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #2ab3b1;
+    letter-spacing: -0.3px;
+    font-weight: 700;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+.container-one h2 {
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.22px;
+    color: #C0DF33;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-left: 40px;
+}
+
+.container-one p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    color: #9AA7BE;
+    margin-top: 11px;
+    margin-left: 40px;
+}
+
+.container-two {
+    width: 318px;
+    height: 259px;
+    background: #2ab3b0;
+    display: inline-block;
+}
+
+
+.container-two h2 {
+    font-size: 18px;
+    letter-spacing: -0.22px;
+    line-height: 21px;
+    font-weight: 700;
+    color: white;
+    background: #2ab3b0;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+.money {
+    font-size: 32px;
+    line-height: 37px;
+    font-weight: 700;
+    color: white;
+    margin-left: 40px;
+}
+
+.money:hover {
+    border-bottom: 1px solid white;
+}
+
+.one-dolar {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    /* margin-left: 40px; */
+    margin-top: 4px;
+}
+
+button {
+    width: 237px;
+    height: 48px;
+    border-radius: 5px;
+    background: #C0DF33;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    border: none;
+    margin-left: 40px;
+    margin-top: 26px;
+    color: white;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+.container-three h1 {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    letter-spacing: -0.22px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.container-three p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.17px;
+    color: white;
+    font-weight: 400;
+    opacity: 75%;
+    margin-top: 18px;
+    margin-left: 40px;
+
+}
+
+.container-three {
+    width: 318px;
+    height: 259px;
+    background: #4abfbc;
+    display: inline-block;
+
+}
+
+.container-two-three {
+    display: flex;
+
+}
+
+.h2-paragraph {
+    display: flex;
+    margin-top: 18px;
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: -0.2px;
+    opacity: 0.5;
+    margin-left: 11px;
+    margin-top: 2px;
+}
+
+@media screen and (max-width: 640px) {
+    .container-two-three {
+        display: grid;
+    }
+
+    .container-one {
+        width: 317px;
+        height: 250px;
+    }
+
+    .container-one h1 {
+        font-size: 20px;
+        line-height: 23.38px;
+        letter-spacing: -0.22px;
+    }
+
+    .container-one H2 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .container-one p {
+        font-size: 14px;
+    }
+
+    .container-two h2 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .container-two h1 {
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    .paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .one-dolar {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    button {
+        width: 263px;
+        height: 48px;
+        font-size: 16px;
+    }
+
+    header {
+        margin-top: 72px;
+        margin-left: 32px;
+    }
+}
